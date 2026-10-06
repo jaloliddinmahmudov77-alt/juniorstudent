@@ -7,6 +7,7 @@ import {
   Flame 
 } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
+import jaloliddinImage from '../assets/images/jaloliddin.png';
 
 export const Hero: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -48,7 +49,7 @@ export const Hero: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#151515] tracking-tight leading-[1.12] text-balance">
               <span className="block">Men Dasturchiman</span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FF5A1F] via-[#FF7A00] to-[#E04B14]">
-                Men O'quvchiman
+                 Men O'quvchiman 
               </span>
               <span className="block">Men Yaratuvchiman</span>
             </h1>
@@ -142,7 +143,7 @@ export const Hero: React.FC = () => {
                   }}
                 >
                   <img
-                    src={personalInfo.avatarImage}
+                    src={jaloliddinImage}
                     alt="Junior Student - Jaloliddin"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-contain object-bottom filter drop-shadow-lg select-none transform hover:scale-[1.015] transition-transform duration-500"

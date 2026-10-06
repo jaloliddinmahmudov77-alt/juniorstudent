@@ -2,6 +2,7 @@ import gitCertificateImage from '../assets/images/git.jpg';
 import javascriptCertificateImage from '../assets/images/js.jpg';
 import reactCertificateImage from '../assets/images/react.jpg';
 import bootstrapCertificateImage from '../assets/images/bootstrap.jpg';
+import jaloliddinImage from '../assets/images/jaloliddin.png';
 
 /**
  * JUNIOR STUDENT PORTFOLIO DATA
@@ -59,8 +60,8 @@ export const personalInfo = {
   tagline: "Men O'quvchiman. Men Dasturchiman. Men Junior Studentman.",
   subGreeting: "Salom, men Jaloliddin Mahmudov 👋",
   bio: "Men dasturlash, sun’iy intellekt, web development va zamonaviy texnologiyalarni o‘rganayotgan yosh dasturchi-man.",
-  aboutText: "Men zamonaviy texnologiyalarni o‘rganishga qiziqadigan yosh dasturchi-man. Hozirda web development, Python, AI, GitHub va boshqa IT yo‘nalishlarida bilimlarimni rivojlantiryapman. Har kuni yangi bilimlar olish, real loyihalar yaratish va kelajakda xalqaro miqyosdagi professional dasturchi bo'lish asosiy maqsadim hisoblanadi.",
-  avatarImage: "/src/assets/images/jaloliddin.png",
+  aboutText: "Men zamonaviy texnologiyalarni o‘rganishga qiziqadigan yosh dasturchi-man. Hozirda web development, Python, AI, GitHub va boshqa IT yo‘nalishlarida bilimlarimни rivojlantiryapman. Har kuni yangi bilimlar olish, real loyihalar yaratish va kelajakda xalqaro miqyosdagi professional dasturchi bo'lish asosiy maqsadim hisoblanadi.",
+  avatarImage: jaloliddinImage,
   location: "O'zbekiston",
   statusBadge: "O'rganishda va yangi loyihalarga tayyor",
   stats: {
