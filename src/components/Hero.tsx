@@ -46,11 +46,11 @@ export const Hero: React.FC = () => {
 
             {/* Big Heading with Fire Orange Highlight */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#151515] tracking-tight leading-[1.12] text-balance">
-              <span className="block">I’m a Student.</span>
+              <span className="block">Men Dasturchiman</span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FF5A1F] via-[#FF7A00] to-[#E04B14]">
-                I’m a Developer.
+                Men O'quvchiman
               </span>
-              <span className="block">I’m a Creator.</span>
+              <span className="block">Men Yaratuvchiman</span>
             </h1>
 
             {/* Subtitle / Bio */}
